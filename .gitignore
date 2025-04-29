@@ -17,6 +17,7 @@ output/
 
 # Any outputs accidentally created in the root
 index.html
+README.html
 index_files/
 *.knit.md
 *.utf8.md
