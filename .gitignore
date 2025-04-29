@@ -1,0 +1,34 @@
+# --- R / targets / renv Related ---
+# RStudio specific state/history
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# renv library cache (recreated using renv.lock)
+renv/library/
+
+# targets cache and metadata (recreated by running tar_make)
+_targets/
+
+# --- Generated Output ---
+# Output directory created by entrypoint/volume mount
+output/
+
+# Any outputs accidentally created in the root
+index.html
+index_files/
+*.knit.md
+*.utf8.md
+
+# --- Data (Downloaded by Pipeline) ---
+# Ignore data downloaded by mtcars_csv_file target
+data/
+
+# --- OS / Editor Specific ---
+.DS_Store
+*.log
+.Rproj.user
+.Rdata
+.httr-oauth
+.quarto

@@ -1,0 +1,77 @@
+---
+title: "MTCars Report"
+format: html
+execute:
+  echo: false
+  warning: false
+  message: false
+  error: true # Set to true temporarily if chunks fail inside Quarto
+  eval: true
+  cache: false
+toc: true
+toc-depth: 1
+bibliography: assets/docker01.bib
+csl: assets/ieee.csl
+---
+
+```{r setup, include=FALSE}
+library(targets)
+library(readr)
+library(DT)
+library(dplyr)
+library(here)
+library(ggplot2)
+library(quarto)
+library(visNetwork)
+tar_load(c(mtcars_raw, mtcars_plot))
+```
+
+# Introduction
+
+This document is an opinionated workflow for reproducible research.  It relies on the R packages `targets`, `quarto` and Docker.[@nust_rockerverse_2020]
+
+# Assets
+
+This an example of an image transferred from an external source. Helpful to know in case you want to introduce logos or pictures.
+
+# R image
+
+```{r}
+#| label: R-image
+knitr::include_graphics(here::here("assets", "r.jpg"))
+```
+
+# Workflow
+
+The workflow proceeds according to the chart below.
+
+```{r}
+#| label: workflow-image
+#| warning: FALSE
+tar_visnetwork()
+```
+
+# Data Table
+
+Here is the raw data.
+
+```{r}
+#| label: mtcars-table
+DT::datatable(mtcars_raw)
+```
+
+# Data Plot
+
+Here is a plot of the data.
+
+```{r}
+#| label: mtcars-plot
+mtcars_plot
+```
+
+Report's last run date: `r Sys.Date()`.
+
+### References
+
+::: {#refs}
+:::

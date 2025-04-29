@@ -1,0 +1,14 @@
+.git/
+.gitignore
+.Rproj.user/
+*.Rproj
+renv/library/
+_targets/
+output/
+index.html
+index_files/
+.DS_Store
+Dockerfile
+.dockerignore
+run_docker.sh
+data/
