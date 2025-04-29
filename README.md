@@ -145,7 +145,7 @@ This shows how the host script manages the container and the volume mount provid
 
 ### Reproducibility
 
--  [Introduction to targets]{https://multimeric.github.io/targets-workshop/instructor/index.html}
+-  [Introduction to targets](https://multimeric.github.io/targets-workshop/instructor/index.html)
 -  [targets](https://docs.ropensci.org/targets/)
 -  [renv](https://rstudio.github.io/renv/)
 -  [tarchetypes](https://docs.ropensci.org/tarchetypes/)
