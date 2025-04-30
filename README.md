@@ -136,6 +136,7 @@ This shows how the host script manages the container and the volume mount provid
 
 ### Docker for R
 
+-  [Dockerfile reference](https://docs.docker.com/reference/dockerfile/)
 -  [An Introduction to Docker for R Users](https://colinfay.me/docker-r-reproducibility/)
 -  [Docker: Environment Management with Docker](https://solutions.posit.co/envs-pkgs/environments/docker/)
 -  [Posit R Docker Images](https://github.com/rstudio/r-docker)
