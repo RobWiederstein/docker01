@@ -1,0 +1,8 @@
+# environment.yml
+name: docker01-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - docker-compose
