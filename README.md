@@ -148,7 +148,7 @@ This shows how the host script manages the container and the volume mount provid
 
 Joel Nitta on GitHub has done a lot of work on advancing reproducibility within the R ecosystem. (has have others!). This particular graphic was nice, simple pictorial of what an author should try to do to preserve make their work reproducible.
 
-![Reproducibility Chart](images/joel_nitta_reproducibility.jpg)
+![Reproducibility Chart](https://github.com/RobWiederstein/docker01/blob/master/images/joel_nitta_reproducility.jpg)
 
 -  [Introduction to targets](https://multimeric.github.io/targets-workshop/instructor/index.html)
 -  [targets](https://docs.ropensci.org/targets/)
