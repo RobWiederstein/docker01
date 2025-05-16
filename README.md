@@ -157,3 +157,7 @@ Joel Nitta on GitHub has done a lot of work on advancing reproducibility within 
 -  [The {targets} R package user manual](https://books.ropensci.org/targets/)
 -  [{targets} in Action](https://ropensci.org/commcalls/jan2023-targets/)
 -  [Using {targets} for bioinformatics pipelines - Joel Nitta](https://joelnitta.github.io/comm-call-bioinfo-targets/#1)
+
+### Reproducibility - General
+
+- [The Turing Way](https://the-turing-way.start.page/)
